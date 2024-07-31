@@ -1,0 +1,43 @@
+h1{
+    color: blue;
+}
+
+h4{
+    padding-top: 5px;
+    margin: 0;
+}
+
+.delete{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(255, 61, 61); 
+    margin-bottom: 5px;
+}
+
+.submit{
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 184, 0);
+}
+
+input{
+    border-radius: 5px;
+    border: 2px solid  rgb(0, 184, 0);
+    color: green;
+}
+
+li{
+    padding-left: 10px;
+    width: 90%;
+    background-color: rgb(168, 255, 168);
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
